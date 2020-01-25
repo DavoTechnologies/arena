@@ -7,11 +7,9 @@
   Remove
 </button>
 
-{{#eq jobState 'failed'}}
   <button class="btn btn-success js-retry-job" data-queue-host="{{ queueHost }}" data-queue-name="{{ queueName }}" data-job-id="{{ this.id }}">
     Retry
   </button>
-{{/eq}}
 
 <div class="row">
   <div class="col-sm-3">
